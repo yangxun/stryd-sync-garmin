@@ -3,7 +3,7 @@ name: stryd-sync-garmin
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0,6,19 * * ?'
+    - cron: '0 9,22 * * *'
 
 env:
   GITHUB_NAME: yangxun
